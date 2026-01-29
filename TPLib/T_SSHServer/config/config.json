@@ -1,0 +1,33 @@
+{
+    "settings": {
+        "port": 22,
+        "banner": "SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.1",
+        "hostname": "ubuntu"
+    },
+    "users": [
+        {
+            "username": "root",
+            "password": "password",
+            "home_dir": "root"
+        },
+        {
+            "username": "ubuntu",
+            "password": "password",
+            "home_dir": "ubuntu"
+        }
+    ],
+    "output": {
+        "login_success": "{ip} - Successful login attempt | Username: {username} | Password: {password}",
+        "login_failed": "{ip} - Failed login attempt | Username: {username} | Password: {password}",
+        "new_connection": "{ip} - New SSH connection established",
+        "no_channel_msg": "{ip} - SSH channel negotiation failed (timeout/protocol error)",
+        "connection_closed_msg": "{ip} - Connection closed{reason}",
+        "connection_error_msg": "{ip} - Connection error: {error}",
+        "shutdown_msg": "Server - Shutting down honeypot service",
+        "startup_msg": "Server - SSH Honeypot started on {host}:{port}",
+        "rsa_key_error": "Server - Invalid RSA key detected: {reason}, generating new key",
+        "rsa_key_loaded": "Server - Loaded existing RSA key from {path}",
+        "rsa_key_created": "Server - Created new RSA key at {path}",
+        "run_command": "{ip} - Executed command: {command}"
+    }
+}

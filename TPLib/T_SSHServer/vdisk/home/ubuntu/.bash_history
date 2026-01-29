@@ -1,0 +1,4 @@
+echo
+help
+ls
+la

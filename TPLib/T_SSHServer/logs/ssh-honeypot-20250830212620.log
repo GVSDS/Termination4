@@ -1,0 +1,36 @@
+[2025-08-30 21:26:20] [#] Starting SSH Honeypot V2.1.4748...
+[2025-08-30 21:26:20] [@] By yrzd6
+[2025-08-30 21:26:20] [#] Work directory: C:\Users\Lenovo\Desktop\Termination4\TPLib\T_SSHServer
+[2025-08-30 21:26:20] [+] Creating new config file: config\config.json
+[2025-08-30 21:26:21] [*] Server - Config file created: config\config.json
+[2025-08-30 21:26:21] [+] Creating new shell config file: config\shell.json
+[2025-08-30 21:26:21] [*] Server - Shell config file created: config\shell.json
+[2025-08-30 21:26:21] [*] Removed old virtual home directory: .\vdisk\home
+[2025-08-30 21:26:21] [*] Removed old virtual root directory: .\vdisk\root
+[2025-08-30 21:26:21] [*] Created virtual home directory: .\vdisk\root
+[2025-08-30 21:26:21] [*] Copied home template files from .\home\root to .\vdisk\root
+[2025-08-30 21:26:21] [*] Created virtual home directory: .\vdisk\home\ubuntu
+[2025-08-30 21:26:21] [*] Copied home template files from .\home\ubuntu to .\vdisk\home\ubuntu
+[2025-08-30 21:26:21] [+] Server - Created new RSA key at config\rsa_key.pem
+[2025-08-30 21:26:21] [*] Server - SSH Honeypot started on 0.0.0.0:22
+[2025-08-30 21:26:21] [#] Server running...
+[2025-08-30 21:27:12] [+] 127.0.0.1 - New SSH connection established
+[2025-08-30 21:27:17] [-] 127.0.0.1 - Connection closed: Connection reset by peer
+[2025-08-30 21:27:17] [!] 127.0.0.1 - SSH channel negotiation failed (timeout/protocol error)
+[2025-08-30 21:27:17] [-] 127.0.0.1 - Connection closed: Timeout or Connection closed by client
+[2025-08-30 21:27:19] [+] 127.0.0.1 - New SSH connection established
+[2025-08-30 21:27:38] [-] 127.0.0.1 - Failed login attempt | Username: lenovo | Password: password
+[2025-08-30 21:27:41] [!] 127.0.0.1 - SSH channel negotiation failed (timeout/protocol error)
+[2025-08-30 21:27:41] [-] 127.0.0.1 - Connection closed: Timeout or Connection closed by client
+[2025-08-30 21:27:48] [+] 127.0.0.1 - New SSH connection established
+[2025-08-30 21:27:54] [!] 127.0.0.1 - Successful login attempt | Username: root | Password: password
+[2025-08-30 21:27:54] [#] 127.0.0.1 - Executed command: 22
+[2025-08-30 21:27:54] [!] 127.0.0.1 - Connection closed: Client disconnected
+[2025-08-30 21:27:57] [+] 127.0.0.1 - New SSH connection established
+[2025-08-30 21:28:03] [!] 127.0.0.1 - Successful login attempt | Username: root | Password: password
+[2025-08-30 21:28:08] [#] 127.0.0.1 - Executed command: cls
+[2025-08-30 21:28:10] [#] 127.0.0.1 - Executed command: clear
+[2025-08-30 21:28:11] [#] 127.0.0.1 - Executed command: exit
+[2025-08-30 21:28:11] [-] 127.0.0.1 - Connection closed: User logged out
+[2025-08-30 21:28:11] [!] 127.0.0.1 - Connection closed: Client disconnected
+[2025-08-30 21:45:41] [#] Server - Shutting down honeypot service

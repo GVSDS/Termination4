@@ -1,0 +1,17 @@
+import DISCAPI
+import os
+
+# 创建一个DISC压缩文件
+with DISCAPI.DISCFile('my_archive.disc', 'w', DISCAPI.DISC_DEFLATED) as DISCf:
+    DISCf.write('test.py', 'test.py1')
+
+with DISCAPI.DISCFile('my_archive.disc', 'r') as DISCf:
+    DISCf.extractall('extracted_files')
+
+print("解压完成，文件已保存到 extracted_files 目录")
+
+with DISCAPI.DISCFile('my_archive.disc', 'r') as DISCf:
+    print("\n压缩包内包含的文件：")
+    for file in DISCf.namelist():
+        print(f"- {file}")
+    

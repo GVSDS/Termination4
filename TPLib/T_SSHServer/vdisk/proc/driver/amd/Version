@@ -1,0 +1,3 @@
+Driver: amdgpu
+Version: 5.15.0-76-generic
+Features: GMC 11.0, PSP 13.0, SMU 13.0, GFX 10.3.6, SDMA 5.2.7

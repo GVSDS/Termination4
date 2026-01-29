@@ -1,0 +1,7 @@
+[2025-08-30 21:49:40] [*] Removed old virtual home directory: .\vdisk\home
+[2025-08-30 21:49:40] [*] Removed old virtual root directory: .\vdisk\root
+[2025-08-30 21:49:40] [*] Created virtual home directory: .\vdisk\root
+[2025-08-30 21:49:40] [*] Copied home template files from .\home\root to .\vdisk\root
+[2025-08-30 21:49:40] [*] Created virtual home directory: .\vdisk\home\ubuntu
+[2025-08-30 21:49:40] [*] Copied home template files from .\home\ubuntu to .\vdisk\home\ubuntu
+[2025-08-30 21:49:40] [*] Server - Loaded existing RSA key from config\rsa_key.pem

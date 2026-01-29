@@ -1,0 +1,7 @@
+{
+    "messages": {
+        "motd": "Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.0-76-generic x86_64)\n\n* Documentation:  https://help.ubuntu.com\n* Management:     https://landscape.canonical.com\n* Support:        https://ubuntu.com/advantage\n{endl}",
+        "prompt": "{COLOR_USER}{username}@{hostname}:{COLOR_PATH}{path}{RESET}${space}",
+        "root_prompt": "root@{hostname}:{path}#{space}"
+    }
+}

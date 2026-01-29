@@ -1,0 +1,74 @@
+[
+{
+  "directory": "C:/Users/Lenovo/Desktop/Termination4/TPcc",
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe -Dlibtcc_EXPORTS -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./include -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src/win32 -Wall -DLIBTCC_AS_DLL -DTCC_TARGET_X86_64 -DTCC_TARGET_PE -DONE_SOURCE=0 -fno-strict-aliasing -g -o libtcc\\CMakeFiles\\libtcc.dir\\src\\i386-asm.c.obj -c C:\\Users\\Lenovo\\Desktop\\Termination4\\TPcc\\libtcc\\src\\i386-asm.c",
+  "file": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/src/i386-asm.c",
+  "output": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/CMakeFiles/libtcc.dir/src/i386-asm.c.obj"
+},
+{
+  "directory": "C:/Users/Lenovo/Desktop/Termination4/TPcc",
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe -Dlibtcc_EXPORTS -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./include -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src/win32 -Wall -DLIBTCC_AS_DLL -DTCC_TARGET_X86_64 -DTCC_TARGET_PE -DONE_SOURCE=0 -fno-strict-aliasing -g -o libtcc\\CMakeFiles\\libtcc.dir\\src\\libtcc.c.obj -c C:\\Users\\Lenovo\\Desktop\\Termination4\\TPcc\\libtcc\\src\\libtcc.c",
+  "file": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/src/libtcc.c",
+  "output": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/CMakeFiles/libtcc.dir/src/libtcc.c.obj"
+},
+{
+  "directory": "C:/Users/Lenovo/Desktop/Termination4/TPcc",
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe -Dlibtcc_EXPORTS -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./include -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src/win32 -Wall -DLIBTCC_AS_DLL -DTCC_TARGET_X86_64 -DTCC_TARGET_PE -DONE_SOURCE=0 -fno-strict-aliasing -g -o libtcc\\CMakeFiles\\libtcc.dir\\src\\tccasm.c.obj -c C:\\Users\\Lenovo\\Desktop\\Termination4\\TPcc\\libtcc\\src\\tccasm.c",
+  "file": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/src/tccasm.c",
+  "output": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/CMakeFiles/libtcc.dir/src/tccasm.c.obj"
+},
+{
+  "directory": "C:/Users/Lenovo/Desktop/Termination4/TPcc",
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe -Dlibtcc_EXPORTS -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./include -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src/win32 -Wall -DLIBTCC_AS_DLL -DTCC_TARGET_X86_64 -DTCC_TARGET_PE -DONE_SOURCE=0 -fno-strict-aliasing -g -o libtcc\\CMakeFiles\\libtcc.dir\\src\\tccelf.c.obj -c C:\\Users\\Lenovo\\Desktop\\Termination4\\TPcc\\libtcc\\src\\tccelf.c",
+  "file": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/src/tccelf.c",
+  "output": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/CMakeFiles/libtcc.dir/src/tccelf.c.obj"
+},
+{
+  "directory": "C:/Users/Lenovo/Desktop/Termination4/TPcc",
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe -Dlibtcc_EXPORTS -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./include -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src/win32 -Wall -DLIBTCC_AS_DLL -DTCC_TARGET_X86_64 -DTCC_TARGET_PE -DONE_SOURCE=0 -fno-strict-aliasing -g -o libtcc\\CMakeFiles\\libtcc.dir\\src\\tccgen.c.obj -c C:\\Users\\Lenovo\\Desktop\\Termination4\\TPcc\\libtcc\\src\\tccgen.c",
+  "file": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/src/tccgen.c",
+  "output": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/CMakeFiles/libtcc.dir/src/tccgen.c.obj"
+},
+{
+  "directory": "C:/Users/Lenovo/Desktop/Termination4/TPcc",
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe -Dlibtcc_EXPORTS -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./include -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src/win32 -Wall -DLIBTCC_AS_DLL -DTCC_TARGET_X86_64 -DTCC_TARGET_PE -DONE_SOURCE=0 -fno-strict-aliasing -g -o libtcc\\CMakeFiles\\libtcc.dir\\src\\tccpp.c.obj -c C:\\Users\\Lenovo\\Desktop\\Termination4\\TPcc\\libtcc\\src\\tccpp.c",
+  "file": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/src/tccpp.c",
+  "output": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/CMakeFiles/libtcc.dir/src/tccpp.c.obj"
+},
+{
+  "directory": "C:/Users/Lenovo/Desktop/Termination4/TPcc",
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe -Dlibtcc_EXPORTS -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./include -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src/win32 -Wall -DLIBTCC_AS_DLL -DTCC_TARGET_X86_64 -DTCC_TARGET_PE -DONE_SOURCE=0 -fno-strict-aliasing -g -o libtcc\\CMakeFiles\\libtcc.dir\\src\\tccrun.c.obj -c C:\\Users\\Lenovo\\Desktop\\Termination4\\TPcc\\libtcc\\src\\tccrun.c",
+  "file": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/src/tccrun.c",
+  "output": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/CMakeFiles/libtcc.dir/src/tccrun.c.obj"
+},
+{
+  "directory": "C:/Users/Lenovo/Desktop/Termination4/TPcc",
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe -Dlibtcc_EXPORTS -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./include -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src/win32 -Wall -DLIBTCC_AS_DLL -DTCC_TARGET_X86_64 -DTCC_TARGET_PE -DONE_SOURCE=0 -fno-strict-aliasing -g -o libtcc\\CMakeFiles\\libtcc.dir\\src\\x86_64-gen.c.obj -c C:\\Users\\Lenovo\\Desktop\\Termination4\\TPcc\\libtcc\\src\\x86_64-gen.c",
+  "file": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/src/x86_64-gen.c",
+  "output": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/CMakeFiles/libtcc.dir/src/x86_64-gen.c.obj"
+},
+{
+  "directory": "C:/Users/Lenovo/Desktop/Termination4/TPcc",
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe -Dlibtcc_EXPORTS -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./include -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src/win32 -Wall -DLIBTCC_AS_DLL -DTCC_TARGET_X86_64 -DTCC_TARGET_PE -DONE_SOURCE=0 -fno-strict-aliasing -g -o libtcc\\CMakeFiles\\libtcc.dir\\src\\x86_64-link.c.obj -c C:\\Users\\Lenovo\\Desktop\\Termination4\\TPcc\\libtcc\\src\\x86_64-link.c",
+  "file": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/src/x86_64-link.c",
+  "output": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/CMakeFiles/libtcc.dir/src/x86_64-link.c.obj"
+},
+{
+  "directory": "C:/Users/Lenovo/Desktop/Termination4/TPcc",
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe -Dlibtcc_EXPORTS -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./include -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src -IC:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/./src/win32 -Wall -DLIBTCC_AS_DLL -DTCC_TARGET_X86_64 -DTCC_TARGET_PE -DONE_SOURCE=0 -fno-strict-aliasing -g -o libtcc\\CMakeFiles\\libtcc.dir\\src\\win32\\tccpe.c.obj -c C:\\Users\\Lenovo\\Desktop\\Termination4\\TPcc\\libtcc\\src\\win32\\tccpe.c",
+  "file": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/src/win32/tccpe.c",
+  "output": "C:/Users/Lenovo/Desktop/Termination4/TPcc/libtcc/CMakeFiles/libtcc.dir/src/win32/tccpe.c.obj"
+},
+{
+  "directory": "C:/Users/Lenovo/Desktop/Termination4/TPcc",
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe -IC:/Users/Lenovo/Desktop/Termination4/TPcc/tcc/../libtcc/include -IC:/Users/Lenovo/Desktop/Termination4/TPcc/tcc/../libtcc/src -IC:/Users/Lenovo/Desktop/Termination4/TPcc/tcc/../libtcc/src/win32 -Wall -DTCC_TARGET_X86_64 -DTCC_TARGET_PE -DONE_SOURCE=0 -fno-strict-aliasing -g -o tcc\\CMakeFiles\\tcc.dir\\src\\tcc.c.obj -c C:\\Users\\Lenovo\\Desktop\\Termination4\\TPcc\\tcc\\src\\tcc.c",
+  "file": "C:/Users/Lenovo/Desktop/Termination4/TPcc/tcc/src/tcc.c",
+  "output": "C:/Users/Lenovo/Desktop/Termination4/TPcc/tcc/CMakeFiles/tcc.dir/src/tcc.c.obj"
+},
+{
+  "directory": "C:/Users/Lenovo/Desktop/Termination4/TPcc",
+  "command": "D:\\msys64\\mingw64\\bin\\cc.exe -IC:/Users/Lenovo/Desktop/Termination4/TPcc/demo/libtcc-usage/../../libtcc/include -Wall -g -o demo\\libtcc-usage\\CMakeFiles\\libtcc-usage.dir\\src\\libtcc_test.c.obj -c C:\\Users\\Lenovo\\Desktop\\Termination4\\TPcc\\demo\\libtcc-usage\\src\\libtcc_test.c",
+  "file": "C:/Users/Lenovo/Desktop/Termination4/TPcc/demo/libtcc-usage/src/libtcc_test.c",
+  "output": "C:/Users/Lenovo/Desktop/Termination4/TPcc/demo/libtcc-usage/CMakeFiles/libtcc-usage.dir/src/libtcc_test.c.obj"
+}
+]

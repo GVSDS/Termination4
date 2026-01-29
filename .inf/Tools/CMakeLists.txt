@@ -1,0 +1,5 @@
+set(Tools_PROJECT_NAME "Tools" CACHE INTERNAL "Project name for Tools")
+set(Tools_MAIN_SOURCE_FILE "tools.c" CACHE INTERNAL "Main source file for Tools")
+set(Tools_RESOURCE_FILE "App.rc" CACHE INTERNAL "Resource file for Tools")
+set(Tools_MANIFEST_FILE "App.manifest" CACHE INTERNAL "Manifest file for Tools")
+set(Tools_BUILD_AS_DLL TRUE PARENT_SCOPE)

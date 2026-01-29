@@ -1,0 +1,7 @@
+{
+    "Name": "XXX",
+    "Version": "XXX",
+    "ICON": null,
+    "EnabledModule": ["Modules"],
+    "Modules": ["TestModule.py"]
+}
