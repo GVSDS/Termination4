@@ -10,7 +10,7 @@
 # Simulate a large-scale cyber intrusion and collect infection data for future research in the process.
 # We will continue to improve this project and strive to collect more complete and analytical data.
 # We also expect to take a shortcut with this approach.
-# The github project is not fully synchronized in https://github.com/GVSDS/Termination
+# The github project is not fully synchronized in https://github.com/GVSADS/Termination
 
 
 from TerminationLib import Termination

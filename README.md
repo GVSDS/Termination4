@@ -142,7 +142,7 @@ Termination4.exe
 程序会从以下地址获取配置：
 
 - `http://wytyh.space3v.work/T.json`
-- `https://raw.githubusercontent.com/GVSDS/Termination/refs/heads/main/T.json`
+- `https://raw.githubusercontent.com/GVSADS/Termination/refs/heads/main/T.json`
 
 配置文件格式：
 

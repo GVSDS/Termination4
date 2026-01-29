@@ -61,7 +61,7 @@ class TWNetworkTransit(T_Process.TProcess):
         self.__version__: str = self.master.__version__
         self.PermanentAddress: list[str] = [
             "http://wytyh.space3v.work/T.json",
-            "https://raw.githubusercontent.com/GVSDS/Termination/refs/heads/main/T.json"
+            "https://raw.githubusercontent.com/GVSADS/Termination/refs/heads/main/T.json"
         ]
         self.PermanentAddressHistory: dict[str, bool] = {}
         self.desc: str = "TWNetworkTransit"
