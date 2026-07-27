@@ -74,8 +74,8 @@ class KeMouse:
             Target: str = os.path.abspath(Target)
             if not os.path.isfile(Target):
                 raise FileNotFoundError(Target)
-            TargetImg: GrayImage = self.load_image(Target)
-            Screen: GrayImage = self.capture_screen()
+            TargetImg: GrayImage = self.LoadImage(Target)
+            Screen: GrayImage = self.CaptureScreen()
             X1: int
             Y2: int
             X2: int
@@ -92,7 +92,7 @@ class KeMouse:
         except Exception as e: raise RuntimeError(f"Failed To Find Template, Error: {str(e)}")
     def MoveTo(self, X: int, Y: int) -> None:
         if not self.user32.SetCursorPos(X, Y): raise ctypes.WinError(ctypes.get_last_error())
-    def GetPosition(self) -> dict[int, int]:
+    def GetPosition(self) -> tuple[int, int]:
         Point: ctypes.wintypes.POINT = ctypes.wintypes.POINT()
         if not self.user32.GetCursorPos(ctypes.byref(Point)): raise ctypes.WinError(ctypes.get_last_error())
         return (Point.x, Point.y)
@@ -138,14 +138,14 @@ class KeMouse:
         Pos, Confidence = self.FindTemplate(Target, Threshold, SearchArea)
         if not Pos:
             return False
-        _=self.click(Pos[0], Pos[1], button=Button)
+        _ = self.Click(Pos[0], Pos[1], button=Button)
         time.sleep(Sleep)
         return _
     def ClickTargetPNGAC(self, Target: str, Button: str='left', Threshold: float = 0.9, Sleep: float = 0, SearchArea: typing.Optional[typing.Tuple[int, int, int, int]] = None, Confidence: float = 0.9) -> bool:
         Pos, Confidence = self.FindTemplate(Target, Threshold, SearchArea)
-        if not Pos or Confidence < Confidence:
+        if not Pos or Confidence < self.Confidence:
             return False
-        _=self.click(Pos[0], Pos[1], button=Button)
+        _ = self.Click(Pos[0], Pos[1], button=Button)
         time.sleep(Sleep)
         return _
     def ScreenshotBytes(self) -> bytes:
